@@ -1,0 +1,40 @@
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+Running Mean | Seed=42 | Split=1 | pid=5,8,16,20,28,29,33,39 | Acc=0.6250 | F1=0.6608
+Running Mean | Seed=42 | Split=2 | pid=5,11,12,19,25,29,32,35 | Acc=0.6328 | F1=0.6565
+Running Mean | Seed=42 | Split=3 | pid=2,3,4,5,6,12,19,40 | Acc=0.6094 | F1=0.6266
+Running Mean | Seed=42 | Split=4 | pid=4,6,15,23,24,33,38,40 | Acc=0.5859 | F1=0.6019
+Running Mean | Seed=42 | Split=5 | pid=3,5,9,19,22,23,31,36 | Acc=0.5938 | F1=0.6051
+Running Mean | Seed=43 | Split=1 | pid=8,9,11,16,22,25,36,38 | Acc=0.5625 | F1=0.5972
+Running Mean | Seed=43 | Split=2 | pid=1,2,11,15,16,18,20,40 | Acc=0.5703 | F1=0.5938
+Running Mean | Seed=43 | Split=3 | pid=3,4,12,18,23,25,27,37 | Acc=0.5625 | F1=0.5676
+Running Mean | Seed=43 | Split=4 | pid=8,16,17,19,33,34,36,38 | Acc=0.5781 | F1=0.5844
+Running Mean | Seed=43 | Split=5 | pid=3,5,6,12,17,20,26,38 | Acc=0.5781 | F1=0.5838
+Running Mean | Seed=111 | Split=1 | pid=1,4,5,14,16,24,27,35 | Acc=0.5833 | F1=0.5730
+Running Mean | Seed=111 | Split=2 | pid=3,18,23,25,26,28,32,35 | Acc=0.5911 | F1=0.5859
+Running Mean | Seed=111 | Split=3 | pid=15,17,18,24,25,26,33,34 | Acc=0.5712 | F1=0.5685
+Running Mean | Seed=111 | Split=4 | pid=1,4,14,20,21,27,29,33 | Acc=0.5703 | F1=0.5665
+Running Mean | Seed=111 | Split=5 | pid=1,4,9,17,18,24,32,39 | Acc=0.5687 | F1=0.5674
+Seed-wise mean results:
+         seed              acc               f1
+0          42          0.59375         0.605083
+1          43           0.5625         0.562445
+2         111             0.55         0.534686
+3  Mean ± Std  0.5687 ± 0.0225  0.5674 ± 0.0355
+Saved LOSO predictions to: output/VAE-TEXT-AROUSAL-SIMPLE-predictions.npz
+Running Mean | Seed=43 | Split=3 | pid=3,4,12,18,23,25,27,37 | Acc=0.5453 | F1=0.2623
+Running Mean | Seed=43 | Split=4 | pid=8,16,17,19,33,34,36,38 | Acc=0.5453 | F1=0.2754
+Running Mean | Seed=43 | Split=5 | pid=3,5,6,12,17,20,26,38 | Acc=0.5562 | F1=0.2922
+Running Mean | Seed=111 | Split=1 | pid=1,4,5,14,16,24,27,35 | Acc=0.5687 | F1=0.2392
+Running Mean | Seed=111 | Split=2 | pid=3,18,23,25,26,28,32,35 | Acc=0.5766 | F1=0.2801
+Running Mean | Seed=111 | Split=3 | pid=15,17,18,24,25,26,33,34 | Acc=0.5618 | F1=0.2936
+Running Mean | Seed=111 | Split=4 | pid=1,4,14,20,21,27,29,33 | Acc=0.5557 | F1=0.2887
+Running Mean | Seed=111 | Split=5 | pid=1,4,9,17,18,24,32,39 | Acc=0.5573 | F1=0.2948
+Seed-wise mean results:
+         seed              acc               f1
+0          42            0.575          0.31849
+1          43           0.5375         0.265918
+2         111         0.559375         0.299852
+3  Mean ± Std  0.5573 ± 0.0188  0.2948 ± 0.0267
+Saved LOSO predictions to: output/VAE-TEXT-AROUSAL-SIMPLE-predictions.npz

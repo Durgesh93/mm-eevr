@@ -1,0 +1,34 @@
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\caption{Classification results using a fixed threshold of $T=0.5$ for each model and target label.}
+\label{tab:results_grouped_fixed_threshold}
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Model} & \multicolumn{2}{c}{\textbf{\texttt{arousal\_category}}} & \multicolumn{2}{c}{\textbf{\texttt{valence\_category}}} & \multicolumn{2}{c}{\textbf{\texttt{stimulus-label}}} \\
+\cline{2-3}\cline{4-5}\cline{6-7}
+ & \textbf{Accuracy} & \textbf{F1} & \textbf{Accuracy} & \textbf{F1} & \textbf{Accuracy} & \textbf{F1} \\
+\hline
+\rowcolor{EDABlue}\multicolumn{7}{l}{\textbf{EDA}} \\
+\textbf{MLP} & 0.558 $\pm$ 0.010 & 0.455 $\pm$ 0.029 & 0.525 $\pm$ 0.011 & 0.534 $\pm$ 0.013 & \textbf{0.873 $\pm$ 0.001} & \textbf{0.854 $\pm$ 0.003} \\
+\textbf{VAE} & \textbf{0.580 $\pm$ 0.013} & \textbf{0.478 $\pm$ 0.001} & \textbf{0.549 $\pm$ 0.007} & \textbf{0.586 $\pm$ 0.008} & 0.837 $\pm$ 0.007 & 0.822 $\pm$ 0.007 \\
+\hline
+\rowcolor{PPGGreen}\multicolumn{7}{l}{\textbf{PPG}} \\
+\textbf{MLP} & 0.531 $\pm$ 0.010 & 0.412 $\pm$ 0.010 & 0.561 $\pm$ 0.007 & \textbf{0.606 $\pm$ 0.012} & \textbf{0.776 $\pm$ 0.019} & \textbf{0.766 $\pm$ 0.011} \\
+\textbf{VAE} & \textbf{0.562 $\pm$ 0.015} & \textbf{0.434 $\pm$ 0.001} & \textbf{0.567 $\pm$ 0.014} & 0.593 $\pm$ 0.008 & 0.762 $\pm$ 0.009 & 0.760 $\pm$ 0.004 \\
+\hline
+\rowcolor{TEXTOrange}\multicolumn{7}{l}{\textbf{TEXT}} \\
+\textbf{MLP} & \textbf{0.576 $\pm$ 0.035} & \textbf{0.319 $\pm$ 0.055} & 0.648 $\pm$ 0.025 & 0.681 $\pm$ 0.028 & \textbf{0.861 $\pm$ 0.020} & \textbf{0.852 $\pm$ 0.024} \\
+\textbf{VAE} & 0.553 $\pm$ 0.007 & 0.278 $\pm$ 0.011 & \textbf{0.683 $\pm$ 0.021} & \textbf{0.720 $\pm$ 0.027} & 0.844 $\pm$ 0.022 & 0.833 $\pm$ 0.027 \\
+\hline
+\rowcolor{gray!20}\multicolumn{7}{l}{\textbf{EDA+TEXT}} \\
+\textbf{MoEVAE} & 0.581 $\pm$ 0.012 & 0.290 $\pm$ 0.019 & \textbf{0.660 $\pm$ 0.022} & \textbf{0.708 $\pm$ 0.017} & 0.868 $\pm$ 0.008 & 0.868 $\pm$ 0.011 \\
+\textbf{PoEVAE} & \textbf{0.592 $\pm$ 0.009} & \textbf{0.308 $\pm$ 0.020} & 0.655 $\pm$ 0.013 & 0.707 $\pm$ 0.015 & \textbf{0.881 $\pm$ 0.006} & \textbf{0.881 $\pm$ 0.007} \\
+\hline
+\rowcolor{gray!20}\multicolumn{7}{l}{\textbf{PPG+TEXT}} \\
+\textbf{MoEVAE} & 0.579 $\pm$ 0.018 & \textbf{0.305 $\pm$ 0.011} & \textbf{0.674 $\pm$ 0.035} & \textbf{0.731 $\pm$ 0.032} & \textbf{0.892 $\pm$ 0.014} & \textbf{0.895 $\pm$ 0.013} \\
+\textbf{PoEVAE} & \textbf{0.580 $\pm$ 0.022} & 0.285 $\pm$ 0.032 & 0.665 $\pm$ 0.035 & 0.721 $\pm$ 0.028 & 0.875 $\pm$ 0.007 & 0.877 $\pm$ 0.006 \\
+\hline
+\end{tabular}
+\end{table}

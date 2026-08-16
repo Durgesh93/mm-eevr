@@ -1,0 +1,10 @@
+Modality,Target label,MLP AUC,VAE AUC,MLP Accuracy,VAE Accuracy,MLP F1,VAE F1,MLP Threshold,VAE Threshold
+EDA,arousal_category,0.569,0.592,0.58,0.577,0.493,0.522,0.484,0.428
+EDA,stimulus-label,0.869,0.864,0.88,0.871,0.863,0.85,0.45,0.565
+EDA,valence_category,0.579,0.591,0.595,0.544,0.67,0.516,0.428,0.634
+PPG,arousal_category,0.542,0.553,0.586,0.616,0.434,0.379,0.55,0.615
+PPG,stimulus-label,0.861,0.864,0.811,0.817,0.784,0.787,0.573,0.639
+PPG,valence_category,0.6,0.599,0.64,0.541,0.736,0.502,0.331,0.681
+TEXT,arousal_category,0.476,0.492,0.681,0.681,0.258,0.281,0.893,0.922
+TEXT,stimulus-label,0.947,,0.885,,0.892,,0.059,
+TEXT,valence_category,0.714,,0.677,,0.687,,0.623,

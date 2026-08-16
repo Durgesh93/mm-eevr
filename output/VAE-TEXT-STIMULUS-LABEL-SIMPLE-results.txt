@@ -1,0 +1,25 @@
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+Running Mean | Seed=42 | Split=1 | pid=5,8,16,20,28,29,33,39 | Acc=0.7188 | F1=0.7000
+Running Mean | Seed=42 | Split=2 | pid=5,11,12,19,25,29,32,35 | Acc=0.7734 | F1=0.7635
+Running Mean | Seed=42 | Split=3 | pid=2,3,4,5,6,12,19,40 | Acc=0.8073 | F1=0.8006
+Running Mean | Seed=42 | Split=4 | pid=4,6,15,23,24,33,38,40 | Acc=0.8203 | F1=0.8153
+Running Mean | Seed=42 | Split=5 | pid=3,5,9,19,22,23,31,36 | Acc=0.8187 | F1=0.8147
+Running Mean | Seed=43 | Split=1 | pid=8,9,11,16,22,25,36,38 | Acc=0.8469 | F1=0.8446
+Running Mean | Seed=43 | Split=2 | pid=1,2,11,15,16,18,20,40 | Acc=0.8430 | F1=0.8408
+Running Mean | Seed=43 | Split=3 | pid=3,4,12,18,23,25,27,37 | Acc=0.8365 | F1=0.8343
+Running Mean | Seed=43 | Split=4 | pid=8,16,17,19,33,34,36,38 | Acc=0.8313 | F1=0.8288
+Running Mean | Seed=43 | Split=5 | pid=3,5,6,12,17,20,26,38 | Acc=0.8391 | F1=0.8367
+Running Mean | Seed=111 | Split=1 | pid=1,4,5,14,16,24,27,35 | Acc=0.8615 | F1=0.8598
+Running Mean | Seed=111 | Split=2 | pid=3,18,23,25,26,28,32,35 | Acc=0.8536 | F1=0.8519
+Running Mean | Seed=111 | Split=3 | pid=15,17,18,24,25,26,33,34 | Acc=0.8337 | F1=0.8288
+Running Mean | Seed=111 | Split=4 | pid=1,4,14,20,21,27,29,33 | Acc=0.8328 | F1=0.8285
+Running Mean | Seed=111 | Split=5 | pid=1,4,9,17,18,24,32,39 | Acc=0.8333 | F1=0.8295
+Seed-wise mean results:
+         seed              acc               f1
+0          42          0.81875         0.814721
+1          43         0.859375         0.858608
+2         111         0.821875         0.815139
+3  Mean ± Std  0.8333 ± 0.0226  0.8295 ± 0.0252
+Saved LOSO predictions to: output/VAE-TEXT-STIMULUS-LABEL-SIMPLE-predictions.npz

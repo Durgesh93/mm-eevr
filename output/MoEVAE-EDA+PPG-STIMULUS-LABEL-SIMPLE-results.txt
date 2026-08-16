@@ -1,0 +1,33 @@
+The Number of entries of High Arousal: 114 & Low Arousal: 219
+The Number of entries of High Valence: 202 & Low Valence: 131
+The Number of entries of Positive Task: 148 & Negative Task: 185
+The Number of entries of High Arousal: 114 & Low Arousal: 219
+The Number of entries of High Valence: 202 & Low Valence: 131
+The Number of entries of Positive Task: 148 & Negative Task: 185
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+Running Mean | Seed=42 | pid=1 | Acc=0.6667 | F1=0.7273
+Running Mean | Seed=42 | pid=2 | Acc=0.6667 | F1=0.7273
+Running Mean | Seed=42 | pid=3 | Acc=0.7037 | F1=0.7515
+Running Mean | Seed=42 | pid=4 | Acc=0.6667 | F1=0.6886
+Running Mean | Seed=42 | pid=5 | Acc=0.7111 | F1=0.7223
+Running Mean | Seed=42 | pid=6 | Acc=0.7222 | F1=0.7269
+Running Mean | Seed=42 | pid=8 | Acc=0.7619 | F1=0.7660
+Running Mean | Seed=42 | pid=9 | Acc=0.7917 | F1=0.7952
+Running Mean | Seed=42 | pid=10 | Acc=0.7778 | F1=0.7703
+Running Mean | Seed=42 | pid=11 | Acc=0.7778 | F1=0.7683
+Running Mean | Seed=42 | pid=12 | Acc=0.7879 | F1=0.7793
+Running Mean | Seed=42 | pid=14 | Acc=0.7963 | F1=0.7858
+Running Mean | Seed=42 | pid=15 | Acc=0.8034 | F1=0.7913
+Running Mean | Seed=42 | pid=16 | Acc=0.8016 | F1=0.7883
+Running Mean | Seed=42 | pid=17 | Acc=0.8148 | F1=0.8024
+Running Mean | Seed=42 | pid=18 | Acc=0.8194 | F1=0.8058
+Running Mean | Seed=42 | pid=19 | Acc=0.8170 | F1=0.8026
+Running Mean | Seed=42 | pid=20 | Acc=0.8148 | F1=0.7996
+Running Mean | Seed=42 | pid=21 | Acc=0.8012 | F1=0.7751
+Running Mean | Seed=42 | pid=22 | Acc=0.8056 | F1=0.7792
+Running Mean | Seed=42 | pid=23 | Acc=0.8042 | F1=0.7802
+Running Mean | Seed=42 | pid=24 | Acc=0.8030 | F1=0.7750
+Running Mean | Seed=42 | pid=25 | Acc=0.8019 | F1=0.7739
+Running Mean | Seed=42 | pid=26 | Acc=0.8009 | F1=0.7729

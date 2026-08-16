@@ -1,0 +1,14 @@
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+Running Mean | Seed=42 | fold=1 | pid=1 | Acc=0.7500 | F1=0.6667
+Running Mean | Seed=42 | fold=2 | pid=2 | Acc=0.5625 | F1=0.3333
+Running Mean | Seed=42 | fold=3 | pid=3 | Acc=0.5833 | F1=0.4444
+Running Mean | Seed=42 | fold=4 | pid=4 | Acc=0.5312 | F1=0.3333
+Running Mean | Seed=42 | fold=5 | pid=5 | Acc=0.5250 | F1=0.2667

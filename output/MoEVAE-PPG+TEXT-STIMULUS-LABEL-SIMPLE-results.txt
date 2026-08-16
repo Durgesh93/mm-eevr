@@ -1,0 +1,22 @@
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+The Number of entries of High Arousal: 101 & Low Arousal: 195
+The Number of entries of High Valence: 170 & Low Valence: 126
+The Number of entries of Positive Task: 148 & Negative Task: 148
+Running Mean | Seed=42 | fold=1 | pid=5,8,16,20,28,29,33,39 | Acc=0.9062 | F1=0.9062
+Running Mean | Seed=42 | fold=2 | pid=5,11,12,19,25,29,32,35 | Acc=0.8828 | F1=0.8879
+Running Mean | Seed=43 | fold=1 | pid=8,9,11,16,22,25,36,38 | Acc=0.8789 | F1=0.8851
+Running Mean | Seed=43 | fold=2 | pid=1,2,11,15,16,18,20,40 | Acc=0.8789 | F1=0.8842
+Running Mean | Seed=111 | fold=1 | pid=1,4,5,14,16,24,27,35 | Acc=0.8776 | F1=0.8836
+Running Mean | Seed=111 | fold=2 | pid=3,18,23,25,26,28,32,35 | Acc=0.8906 | F1=0.8953
+Seed-wise mean results:
+         seed              acc               f1
+0          42         0.882812         0.887908
+1          43            0.875          0.88057
+2         111         0.914062         0.917367
+3  Mean ± Std  0.8906 ± 0.0207  0.8953 ± 0.0195
+Saved LOSO predictions to: output/MoEVAE-PPG+TEXT-STIMULUS-LABEL-SIMPLE-predictions.npz

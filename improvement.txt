@@ -1,0 +1,49 @@
+Line 97 in section 3.2 
+Earlier, the VAE used an unweighted ELBO loss, where reconstruction and KL loss were combined as recon - kl. In the updated code, beta_recon and beta_kl are added to control the contribution of each term:
+beta_recon * recon - beta_kl * kl
+This gives better control over the trade-off between reconstruction quality and latent regularization. The model is also trained with L=10 samples earlier we were taking default L=1 sample, so the ELBO is averaged over 10 latent samples, giving a more stable loss estimate.
+
+For the CodeVAE experiment when tranining with multimodal data i was not alighning the EDA and PPG datasets. now i am alighning and training it: waiting for the results.
+
+
+For the text classification I now use "EEVR/Data_files/text_data_labels.csv" which is the correct file and experiments are working.
+
+The difference between baseline experiments for EDA, PPG and TEXT are the decoder module and classifier. Encoder structure is same
+with hidden layer 100, 50. SO the robustness in F1 score comes by regularization of VAE loss in the latent space.
+
+Balenced data simple:
+
+The Number of entries of High Arousal: 114 & Low Arousal: 219
+The Number of entries of High Valence: 202 & Low Valence: 131
+The Number of entries of Positive Task: 148 & Negative Task: 185
+arousal_category
+1    228
+0    219
+
+valence_category
+0    262
+1    202
+
+
+My balance data simple
+
+valence_category
+0    202
+1    202
+Name: count, dtype: int64
+
+arousal_category
+0    219
+1    219
+
+https://arxiv.org/pdf/2505.01134
+
+D.2. EVALUATION CRITERIA
+Linear classification: We use the LogisticRegression class in sklearn to fit linear classifiers with 500
+latent representations of all subsets X ∈ P(X). The only parameters that we specify are solver=’lbfgs’,
+multi_class=’auto’ and max_iter=3000. To test the performance of the classifiers on the entire test set, we
+use accuracy_score, which is available in sklearn, for the MNIST-SVHN-Text and PolyMNIST data. See the
+released code for further details.
+
+
+BERT is not good for training with small data.
